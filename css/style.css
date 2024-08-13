@@ -1,0 +1,105 @@
+/*==============
+    Css reset
+================*/
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+
+/*==================
+  Formatação geral
+====================*/
+
+html {
+    font-size: calc(10px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+}
+
+html body a {
+    text-decoration: none;
+    color: #21243d;
+}
+
+/*=============================
+  Formatação do topo da página
+===============================*/
+
+header {
+    margin: 0 5vw 3vw 5vw;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: right;
+}
+
+header nav ul li {
+    margin: 1vw 10px 0 10px;
+}
+
+header nav ul li.atual a {
+    color: #ff6464;
+}
+
+/*======================
+  Formatação do conteúdo
+========================*/
+
+main.works {
+    margin: 0 30vw 0vw 30vw;
+}
+
+main.works h1 {
+    font-weight: 100; /*negrito da fonte*/
+    margin: 0 0 0 0; /*espaçamento do título*/
+}
+
+main.works section {
+    border-bottom: 1px solid #e0e0e0; /*borda das sections (apenas na parte de baixo)*/
+    padding: 4vw 0 4vw 0; /*espaçamento das sections*/
+}
+
+main.works section:last-child {
+    border: none;
+}
+
+main.works section p {
+    margin: 1vw 0 1vw 0;
+}
+
+main.works section p span {
+    color: white;
+    background-color: #ff6464; /*cor de fundo*/
+    border-radius: 20px; /*borda do span*/
+    padding: 2px 7px 2px 7px; /*espaçamento do span*/
+    font-weight: bold; /*negrito da fonte*/
+    
+}
+
+/*======================
+  Formatação do rodapé
+========================*/
+
+footer {
+    text-align: center; /*centraliza o texto*/
+    padding: 0 0 2vw 0;
+}
+
+footer nav ul {
+    display: flex; /*coloca os elementos um ao lado do outro*/
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 10px 5px 10px; /*espaçamento icone*/
+    font-size: 1rem; /*tamanho icone*/
+}
+
+footer nav ul li a span {
+    color: #21243d;
+}
