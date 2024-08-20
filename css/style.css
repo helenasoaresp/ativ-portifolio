@@ -25,6 +25,9 @@ html body a {
     color: #21243d;
 }
 
+main {
+    margin: 0 20vw 0vw 20vw;
+}
 /*=============================
   Formatação do topo da página
 ===============================*/
@@ -47,21 +50,20 @@ header nav ul li.atual a {
 }
 
 /*======================
-  Formatação do conteúdo
+  Formatação Works
 ========================*/
 
-main.works {
-    margin: 0 30vw 0vw 30vw;
-}
-
 main.works h1 {
-    font-weight: 100; /*negrito da fonte*/
-    margin: 0 0 0 0; /*espaçamento do título*/
+    font-weight: 100;/*negrito da fonte*/
+    margin: 0 0 0 0;/*espaçamento do título*/
 }
+    
 
 main.works section {
-    border-bottom: 1px solid #e0e0e0; /*borda das sections (apenas na parte de baixo)*/
-    padding: 4vw 0 4vw 0; /*espaçamento das sections*/
+
+    border-bottom: 1px solid #e0e0e0;/*borda das sections (apenas na parte de baixo)*/
+    padding: 4vw 0 4vw 0;/*espaçamento das sections*/
+    
 }
 
 main.works section:last-child {
@@ -74,11 +76,60 @@ main.works section p {
 
 main.works section p span {
     color: white;
-    background-color: #ff6464; /*cor de fundo*/
-    border-radius: 20px; /*borda do span*/
-    padding: 2px 7px 2px 7px; /*espaçamento do span*/
-    font-weight: bold; /*negrito da fonte*/
-    
+    background-color: #ff6464;/*cor de fundo*/
+    border-radius: 20px;/*borda do span*/
+    padding: 2px 7px 2px 7px;/*espaçamento do span*/
+    font-weight: bold;/*negrito da fonte*/
+}
+
+/*=================================
+  Formatação de conteúdo Home page
+===================================*/
+
+section.banner {
+    display: flex;
+    margin: 6vw 0 3vw 0;
+}
+
+section.banner h1 {
+    font-size: 2rem;
+}
+section.banner p {
+    margin: 2vw 2vw 2vw 0;
+}
+section.banner button {
+    background-color: #ff6464;
+    color: white;
+    border-radius: 2px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1rem;
+}
+
+section.rt-post {
+    background-color: #edf7fa;
+    padding: 2vw 1vw 2vw 1vw;
+}
+
+section.rt-post h2 {
+    font-weight: normal;
+    margin: 0 0 1vw 0;
+}
+section.rt-post ul {
+    display: flex;
+}
+
+section.rt-post ul li {
+    background-color: white;
+    padding: 15px 10px 15px 10px;
+    margin: 0 2vw 0 0;
+}
+
+section.rt-post ul li:last-child {
+    margin: 0;
+}
+
+section.rt-post ul li h3 {
+    margin: 1.5vw 0 1.5vw 0;
 }
 
 /*======================
@@ -86,18 +137,18 @@ main.works section p span {
 ========================*/
 
 footer {
-    text-align: center; /*centraliza o texto*/
+    text-align: center;/*centraliza o texto*/
     padding: 0 0 2vw 0;
 }
 
 footer nav ul {
-    display: flex; /*coloca os elementos um ao lado do outro*/
+    display: flex;/*coloca os elementos um ao lado do outro*/
     justify-content: center;
 }
 
 footer nav ul li {
-    margin: 0 10px 5px 10px; /*espaçamento icone*/
-    font-size: 1rem; /*tamanho icone*/
+    margin: 0 10px 5px 10px;/*espaçamento icone*/
+    font-size: 1rem;/*tamanho icone*/
 }
 
 footer nav ul li a span {
