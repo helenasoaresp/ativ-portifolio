@@ -26,7 +26,7 @@ html body a {
 }
 
 main {
-    margin: 0 20vw 0vw 20vw;
+    margin: 0 10vw 0vw 10vw;
 }
 /*=============================
   Formatação do topo da página
@@ -106,7 +106,7 @@ section.banner button {
 }
 
 section.rt-post {
-    background-color: #edf7fa;
+    background-color: #dae3e6;
     padding: 2vw 1vw 2vw 1vw;
 }
 
@@ -128,8 +128,43 @@ section.rt-post ul li:last-child {
     margin: 0;
 }
 
-section.rt-post ul li h3 {
+section.rt-post ul li p {
     margin: 1.5vw 0 1.5vw 0;
+}
+
+section.ft-works h2 {
+    font-size: 2rem;
+    margin: 0 0 1vw 0;
+}
+
+section.ft-works > div {
+    display: flex;
+}
+
+section.ft-works div h3 {
+    margin: 2vw 1vw 2vw 1vw;
+    font-size: 1rem;
+}
+
+section.ft-works div div img {
+    padding: 1vw 2vw 1vw 2vw;
+}
+
+section.ft-works div p span {
+    padding: 7px 10px 7px 10px;
+    background-color: #142850;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    margin: 0 0.5vw 0 0;
+}
+
+section.ft-works div p {
+    margin: 1vw 1vw 1vw 1vw;
+}
+
+section.rt-post ul li h3 {
+    margin: 1.5vw 0vw 1.5vw 0vw;
 }
 
 /*======================
